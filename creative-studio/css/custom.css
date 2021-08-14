@@ -1,0 +1,43 @@
+/*-- Use For Custom Styling --*/
+
+#about {
+    height:720px;
+}
+
+.github_link :hover{
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    transition-duration: 400ms;
+}
+
+.sitevisit :hover{
+    
+    font-size: 140%;
+    font-weight: bold;
+    transition-duration: 400ms;
+  
+}
+
+/*.cbp-l-caption-body :hover {
+    transform: rotateY(360deg);
+   
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+*/
+.cbp-l-caption-title {
+    color: #e57aff!important;
+} 
+
+.cbp-l-caption-body p {
+    color:#84a1d2 !important;
+    font-weight: 600!important;
+    font-size: 90%;
+  
+}
+
+.cbp-l-caption-body :hover {
+    transform: scale(80%);
+   
+    transition: 1s
+}
